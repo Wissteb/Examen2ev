@@ -1,0 +1,125 @@
+@charset "utf-8"; 
+@charset "utf-8";
+*{
+    margin: 0.5%;
+    margin-right: 0.5%;
+}
+/* Wissal Tebai 
+08/1/2019 */
+body{
+    background-color:rgba(236, 236, 127, 0.747);
+
+}
+
+div.inicial{
+    background-color: rgb(248, 176, 117);
+    width: 100%;
+    height: 70px;
+}
+
+
+
+
+
+h1{
+    font-size: 200%;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+    text-shadow: rgb(175, 97, 33) 6px 0px 2px;
+    text-transform: uppercase;
+    background-color:  rgb(248, 176, 117);
+    color: white;
+}
+
+nav{
+    background-color: rgb(240, 240, 78);
+    height: 30px;
+    border: red solid 3px;
+    margin-top: 0;
+    
+}
+
+ul,li{
+    display: inline;
+    
+}
+
+li{
+    padding: 90px;
+}
+
+p{
+    font-family: sans-serif;
+    padding: 10px;
+    font-size:120%;
+    
+
+}
+p.uno{ 
+    position: absolute;
+    white-space: normal;
+    background-color:rgb(206, 178, 125);
+    border:rgb(136, 11, 7) solid 3px;
+    width: 35%;
+    height: 250px;
+    text-align: center;
+    top: 20%;
+    left:32%;
+    color: rgb(202, 17, 17);
+    letter-spacing: 3px;
+    background: url("img/naranja.png") top left repeat-y,
+    url("img/naranja.png") top right repeat-y; 
+    background-size: 12% 32%;
+  padding: 0 70px;
+}
+p.dos{
+
+    position: absolute;
+    border:rgb(46, 134, 46) solid 3px;
+    background-color:rgb(246, 248, 140);
+    width: 40%;
+    height: 200px;
+    letter-spacing: 4px;
+    text-align: left;
+    top:50%;
+    left: 5%;
+    color: rgb(202, 159, 17);
+}
+p.tres{
+    position: absolute;
+    border:rgb(56, 211, 231) solid 3px;
+    background-color:rgb(186, 223, 223);
+    width: 40%;
+    height: 200px;
+    text-align:right;
+    top: 50%;
+    right: 3%;
+    color: rgb(206, 150, 45);
+}
+.subraya{
+    text-decoration: underline;
+}
+div.final{
+ font-family:Verdana, Geneva, Tahoma, sans-serif;  
+position: absolute;
+color: blue;
+top: 85%;
+background-color:rgb(241, 200, 122); 
+height:80px;
+width: 97%;
+margin-right: 80%;
+
+}
+
+p:hover {
+    z-index: 1;
+  }
+  footer{
+      position: absolute;
+      top: 95%;
+      width:97%;
+      background-color: rgb(231, 231, 61);
+    
+     
+  }
