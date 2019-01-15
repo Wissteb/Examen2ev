@@ -111,14 +111,22 @@ margin-right: 80%;
 
 }
 
+.naranja{
+    position: absolute;
+    top: 81%;
+    width:97%;
+    background: url("naranja2.svg") top left repeat-x,
+    url("naranja2.svg") top right repeat-x,rgb(245, 203, 126); 
+    background-size: 2% 120%;
+}
 p:hover {
     z-index: 1;
   }
-  footer{
+  footer{      
       position: absolute;
       top: 95%;
       width:97%;
       background-color: rgb(231, 231, 61);
-    
+      
      
   }
