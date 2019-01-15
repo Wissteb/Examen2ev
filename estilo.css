@@ -8,7 +8,7 @@
 08/1/2019 */
 body{
     background-color:rgba(236, 236, 127, 0.747);
-
+  
 }
 
 div.inicial{
@@ -59,7 +59,6 @@ p{
 p.uno{ 
     position: absolute;
     white-space: normal;
-    background-color:rgb(206, 178, 125);
     border:rgb(136, 11, 7) solid 3px;
     width: 35%;
     height: 250px;
@@ -69,9 +68,9 @@ p.uno{
     color: rgb(202, 17, 17);
     letter-spacing: 3px;
     background: url("img/naranja.png") top left repeat-y,
-    url("img/naranja.png") top right repeat-y; 
+    url("img/naranja.png") top right repeat-y,rgb(245, 203, 126); 
     background-size: 12% 32%;
-  padding: 0 70px;
+    padding: 0 70px;
 }
 p.dos{
 
